@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "psr-4": {"": "src/", "MyFramework\\": "app/"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "phpunit/php-code-coverage": "*"
+    }
+}
