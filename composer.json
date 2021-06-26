@@ -1,9 +1,6 @@
 {
-    "scripts": {
-      "test": "C:\\xampp\\htdocs\\curso-php-phpunit\\vendor\\bin\\phpunit C:\\xampp\\htdocs\\curso-php-phpunit\\src"
-    },
     "autoload": {
-        "psr-4": {"": "src/", "MyFramework\\": "app/"}
+        "psr-0": {"": "src/", "MyFramework\\": "app/"}
     },
     "require-dev": {
         "phpunit/phpunit": "^7",
